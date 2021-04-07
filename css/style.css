@@ -6,6 +6,8 @@ body {
   margin: 0;
   font-family: 'Mulish',
     sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 a {
@@ -22,8 +24,11 @@ button:focus {
   outline: none;
 }
 
-button:checked {
-  border: none;
+h2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
 }
 
 /* header */
@@ -31,7 +36,8 @@ button:checked {
 .header {
   display: flex;
   align-items: center;
-  padding: 20px 70px 50px 30px;
+  padding: 20px 70px 20px 30px;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -57,7 +63,7 @@ button:checked {
   -o-border-radius: 20px;
 }
 
-.logo {
+.logo-link {
   margin-right: 60px;
 }
 
@@ -77,6 +83,7 @@ button:checked {
 }
 
 .input-search {
+  width: 100%;
   background-color: transparent;
   border: none;
   padding: 12px 23px;
@@ -128,3 +135,59 @@ button:checked {
   -o-border-radius: 50%;
 }
 
+/* sidebar */
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin: 0 0 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-item .icon {
+  opacity: 0.24;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  color: #898989;
+}
+
+.nav-link:hover {
+  color: #FF0000;
+}
+
+.nav-link:hover .icon {
+  opacity: 1;
+  fill: #FF0000;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0 0 30px 0;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
