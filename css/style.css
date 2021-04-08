@@ -231,6 +231,17 @@ h4 {
   padding-top: 28px;
 }
 
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.channel-slider1,
+.channel-slider2,
+.channel-slider3 {
+  width: 105%;
+}
+
 .channel {
   position: relative;
   margin-bottom: 50px;
@@ -242,7 +253,7 @@ h4 {
   align-items: center;
   justify-content: space-between;
   width: 66px;
-  right: 15%;
+  right: 11%;
   top: 10px;
 }
 
@@ -273,6 +284,7 @@ h4 {
 
 .video-card {
   width: 250px;
+  cursor: pointer;
 }
 
 .video-thumb {
@@ -362,6 +374,7 @@ h4 {
   display: flex;
   align-items: center;
 }
+
 .channel-text {
   font-size: 16px;
   line-height: 20px;
